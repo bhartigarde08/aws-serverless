@@ -46,8 +46,6 @@ app.get("/users/:id", (request, response) => {
 app.listen(2000, () => console.log(`Listening on: 2000`));
 module.exports.handler = serverless(app);
 
-//serverless config credentials --provider aws --key AKIATGIZU5ZQPWOKLEUG --secret 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
-
 /**API Endpoints
 
     https://lnw4g98w67.execute-api.ap-south-1.amazonaws.com/dev/
